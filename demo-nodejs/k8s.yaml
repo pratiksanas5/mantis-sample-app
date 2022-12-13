@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: web-app
-        image: gcr.io/bionic-axon-368601/mantis-app:v1
+        image: asia-south1-docker.pkg.dev/bionic-axon-368601/mantis-app/mantis-test-app:latest
         ports:
         - containerPort: 3000
 ---
